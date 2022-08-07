@@ -60,6 +60,10 @@ theme.
   outline: none !important;
 }
 
+h5 {
+  text-align: center;
+}
+
 h1 , h2 , h3 {
   direction: rtl !important;
   text-align: center !important;
@@ -2243,8 +2247,8 @@ textarea {
   margin: 0;
   padding: 40px;
   list-style: none;
-  border-left: 1px solid #eee;
-  border-top: 1px solid #eee;
+  /* border-left: 1px solid #eee;
+  border-top: 1px solid #eee; */
 }
 
 /* CONTACT */
