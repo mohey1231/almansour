@@ -64,12 +64,26 @@ h5 {
   text-align: center;
 }
 
+.xd {
+  opacity: .5;
+}
+
 h1 , h2 , h3 {
   direction: rtl !important;
   text-align: center !important;
   font-family: "Noto Naskh Arabic" !important;
   letter-spacing: 1px !important;
 
+}
+.cxc {
+  font-family: "Noto Naskh Arabic" !important;
+  direction: rtl !important;
+
+
+}
+
+.cxc2 {
+  padding: 11px 15px;
 }
 
 p {
@@ -2237,15 +2251,22 @@ textarea {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  /* padding: 0; */
   border-right: 1px solid #eee;
   border-bottom: 1px solid #eee;
 }
+
+@media only screen and (max-width:575px) {
+  .clients ul{
+    padding: 0;
+  }
+  
+}
 .clients ul li {
-  width: 33.33333%;
+  width: 19.33333%;
   margin: 0;
-  padding: 40px;
+  padding: 8px;
   list-style: none;
   /* border-left: 1px solid #eee;
   border-top: 1px solid #eee; */
@@ -2380,9 +2401,11 @@ textarea {
   background-size: 80% auto;
 }
 .footer ul {
-  margin: 0;
+  margin: auto;
   padding: 0;
-  float: right;
+  /* float: right; */
+  display: block;
+  text-align: center;
 }
 .footer ul li {
   display: inline-block;
@@ -2745,7 +2768,7 @@ textarea {
   }
 
   .clients ul li:last-child {
-    display: none;
+    /* display: none; */
   }
 
   .blog .post .post-image {
