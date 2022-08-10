@@ -60,6 +60,15 @@ theme.
   outline: none !important;
 }
 
+a{
+  opacity: 1;
+  animation-duration: .1s;
+}
+
+a:hover{
+  opacity: .5;
+}
+
 h5 {
   text-align: center;
 }
@@ -2250,11 +2259,11 @@ textarea {
 .clients ul {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   margin: auto;
   /* padding: 0; */
-  border-right: 1px solid #eee;
-  border-bottom: 1px solid #eee;
+  /* border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee; */
 }
 
 @media only screen and (max-width:575px) {
@@ -2264,8 +2273,8 @@ textarea {
   
 }
 .clients ul li {
-  width: 19.33333%;
-  margin: 0;
+  /* width: 19.33333%; */
+  margin: auto;
   padding: 8px;
   list-style: none;
   /* border-left: 1px solid #eee;
