@@ -77,6 +77,26 @@ h5 {
   opacity: .5;
 }
 
+.m-d{
+  display: block !important;
+}
+
+.m-d-2{
+  display: none ;
+  height: 100%;
+}
+
+
+@media only screen and (max-width:600px) {
+  .m-d{
+    display: none !important;
+  }
+
+  .m-d-2{
+    display: block !important;
+  }
+}
+
 h1 , h2 , h3 {
   direction: rtl !important;
   text-align: center !important;
